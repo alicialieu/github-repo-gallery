@@ -80,6 +80,29 @@ textarea {
   resize: vertical;
 }
 
+.badge {
+    height: 80px;
+    width: 50px;
+    background-color: grey;
+    z-index: 98;
+    margin: 10px auto -35px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #483978;
+    border-radius: 100%;
+    z-index: 99;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 8px;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
